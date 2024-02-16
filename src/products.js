@@ -11,6 +11,7 @@ export const PRODUCTS = [
   {
     id: 1,
     productName: "Chain",
+    category: "jewellery",
     price: 999.0,
     productLink:"https://www.amazon.in",
     productImage: "https://i.ibb.co/PjQ2T6K/Fashion-necklace-golden-stick-STYFHNEKGLSTK65.png",
@@ -18,6 +19,7 @@ export const PRODUCTS = [
   {
     id: 2,
     productName: "Clutch Bag",
+    category: "bags",
     price: 1999.0,
     productLink:"",
     productImage: "https://i.ibb.co/y06MDmk/Clutch-Bag-yellow-multi-color-6x6-2.png",
@@ -25,6 +27,7 @@ export const PRODUCTS = [
   {
     id: 3,
     productName: "Shoe",
+    category:"footwear",
     price: 699.0,
     productLink:"",
     productImage: "https://i.ibb.co/zRJWDYz/Sports-Shoes-554-W-6.png",
@@ -32,6 +35,7 @@ export const PRODUCTS = [
   {
     id: 4,
     productName: "WLS Van Gogh Denim Jacket",
+    category: "dress",
     price: 228.0,
     productLink:"",
     productImage: product4,
@@ -39,6 +43,7 @@ export const PRODUCTS = [
   {
     id: 5,
     productName: "LED Light Strips",
+    category: "electronics",
     price: 19.99,
     productLink:"",
     productImage: product5,
@@ -46,6 +51,7 @@ export const PRODUCTS = [
   {
     id: 6,
     productName: "SPECTRUM LS TEE",
+    category: "dress",
     price: 68.0,
     productLink:"",
     productImage: product6,
@@ -53,6 +59,7 @@ export const PRODUCTS = [
   {
     id: 7,
     productName: "AUTO SERVICE SHIRT by GOLF WANG",
+    category: "dress",
     price: 120.0,
     productLink:"",
     productImage: product7,
@@ -60,6 +67,7 @@ export const PRODUCTS = [
   {
     id: 8,
     productName: "DON'T TRIP UNSTRUCTURED HAT",
+    category: "dress",
     price: 40.0,
     productLink:"",
     productImage: product8,

@@ -3,7 +3,9 @@ import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import "./shop.css";
 
-export const Shop = () => {
+export const Shop = ({selectedCategory}) => {
+
+  const filteredProducts = selectedCategory === 'all' ? PRODUCTS : PRODUCTS.filter(product => product.category === selectedCategory);
   return (
     <div className="shop">
       <div className="shopTitle">        
@@ -11,7 +13,7 @@ export const Shop = () => {
       </div>
       
       <div className="products">
-        {PRODUCTS.map((product) => (
+        {filteredProducts.map((product) => (
           <Product data={product} />
         ))}
       </div>
